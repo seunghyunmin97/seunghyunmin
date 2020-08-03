@@ -1,3 +1,6 @@
+/*
+문자열을 입력받고 반대로 출력*/
+
 #include <stdio.h>
 #include <string.h>
 #define SIZE 10

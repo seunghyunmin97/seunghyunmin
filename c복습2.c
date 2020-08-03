@@ -1,5 +1,5 @@
 /*
-임의로 5, 8, 3으로 저장되어 있는 배열의 모든 원소를 곱하는 포인터 방식을 출력해보자.
+임의로 입력받은 숫자를 배열에 저장 후 배열의 모든 원소를 곱하는 포인터 방식을 출력해보자.
 */
 
 
@@ -41,20 +41,12 @@ void multiplyeverything(int *arr, int n){
 
   for(i=0;i<n;i++)
   {
-      printf("arr[%d] ",i);
+      printf("arr[%d] * ",i); //곱하기 어디에ㅠㅠ???
 
-  /*  for(j=0;j<i-1;j++)
-    {
-      printf(" * ");
-    }
-
-  */
     mtp *= arr[i];
-
-
 
   }
 
 
-  printf("= %d\n",mtp);
+  printf("\b\b= %d\n",mtp);
 }
